@@ -133,4 +133,4 @@ mstfwmanager_DEPENDENCIES += $(top_builddir)/mlxdpa/libmstdpa.a
 endif
 
 mstfwmanager_LDADD = $(mstfwmanager_DEPENDENCIES) $(LDADD_mstfwmanager)
-mstfwmanager_LDFLAGS = -static
+#mstfwmanager_LDFLAGS = -static
