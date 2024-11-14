@@ -34,6 +34,7 @@
 #if !defined(NO_OPEN_SSL) && !defined(NO_DYNAMIC_ENGINE)
 #include "mlxsign_openssl_engine.h"
 #include <iostream>
+#include <openssl/engine.h>
 #include <openssl/ssl.h>
 #include <openssl/sha.h>
 #include <openssl/rsa.h>
